@@ -34,8 +34,6 @@ StegCloak is a pure JavaScript steganography module designed in functional progr
 
 <br>
 
-![StegCloak Demo](assets/stegcloak.gif)
-
 
 ## Installing
 
@@ -147,13 +145,4 @@ This amazing [blog](https://iwantmore.pizza/posts/zwc-fingerprint.html) by [Fran
 StegCloak doesn't solve the Alice-Bob-Warden problem, it's powerful only when people are not looking for it and it helps you achieve that really well, given its invisible properties around the web! It could be safely used for watermarking in forums, invisible tweets, social media etc. Please don't use it when you know there's someone who is actively sniffing your data - looking at the unicode characters through a data analysis tool. In that case, even though the secret encoded cannot be deciphered, the fact lies that the Warden (middle-man) knows some secret communication took place, because he would have noticed an unusual amount of special invisible characters.
 </p>
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://github.com/KuroLabs/stegcloak/blob/master/LICENSE) - Copyright (c) 2020 [Jyothishmathi CV](https://github.com/JyothishmathiCV), [Kandavel A](https://github.com/AK5123), [Mohanasundar M](https://github.com/mohanpierce99)
-
-## Acknowledgements
-The StegCloak logo was designed by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>.
